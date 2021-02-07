@@ -16,7 +16,7 @@ class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
         self.do_paint = False
-        uic.loadUi('111.ui', self)
+        uic.loadUi('UI.ui', self)
         self.init_ui()
 
     def init_ui(self):
